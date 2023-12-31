@@ -1,0 +1,28 @@
+.result{
+    position: absolute;
+    /* margin-left: 550px;
+    margin-top: 270px; */
+    /* padding-left: 550px;
+    padding-top: 300px; */
+    /* position: relative; */
+    top: 400px;
+    left: 530px;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgb(0,0,0.5);
+    border-radius:10px solid rgba(255,255,255,0.3);
+}
+
+.insideres{
+    position:relative;
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+h1{
+    color: rgb(159, 228, 235);
+}
+.info{
+    font-size: 20px;
+}

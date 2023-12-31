@@ -1,0 +1,39 @@
+.mainimg{
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100%; */
+    background-image:url('../../static/images/types-eye-tests.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter:blur(3px);
+}
+
+section{
+    width: 700px;
+    position: absolute;
+    top:170px;
+    left: 440px;
+    height: 350px;
+}
+
+.submit_btn{
+    width: 500px;
+    position: absolute;
+    top:70px;
+    left: 450px;
+    height: 350px;
+}
+
+.btn1{
+    width: 500px;
+    position: absolute;
+    top:70px;
+    left: 1000px;
+    height: 350px;
+}
+
+.info{
+    font-size: 17px;
+}

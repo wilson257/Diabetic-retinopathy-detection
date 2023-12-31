@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/graph.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+       <h1 class="res">Resnet Accuracy and Loss</h1>
+       <img src="../static/images/resnetacc.png" alt="" class="resacc">
+       <img src="../static/images/resloss.png" alt="" class="resloss">
+</div>
+ 
+<div>
+    <h1 class="cnn">CNN Accuracy and Loss</h1>
+    <img src="../static/images/cnnacc.png" alt="" class="cnnacc">
+    <img src="../static/images/cnnloss.png" alt="" class="cnnloss">
+</div>
+
+</body>
+</html>
